@@ -1,0 +1,392 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0.1rem;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 1.5rem;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 100px;
+    max-height: 100px;
+
+}
+
+ /* button {     
+    --grad: linear-gradient(to right bottom, var(--slist));
+    display: grid;
+    grid-auto-flow: column;    
+    grid-gap: .5em;    
+    margin: 1em auto;    
+    border: solid .25em transparent;    
+    padding: 1em 1.5em;    
+    border-radius: 9em;    
+    background:         var(--grad) border-box,         linear-gradient(rgb(33, 5, 5) 0 0),         var(--grad) border-box;
+    -webkit-background-clip: text, padding-box, border-box;                    
+    background-clip: text, padding-box, border-box;    
+    -webkit-text-fill-color: transparent;    
+    font: 700 1.5em/ 1.25 ubuntu, sans-serif;    
+    text-transform: none;    
+    color: black;
+
+
+    background-color: white;
+    color: black;
+    border: 2px solid #d9a600;  
+    border-radius: 40px;
+    padding: 1.5rem;
+}
+
+*/
+
+
+.top {
+    display: flex;
+    margin: 2rem;
+}
+
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+
+
+.right {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.right img {
+    width: 30rem;
+}
+
+
+ #top-text {
+    text-transform: uppercase;
+    color: #FF3998;
+    width: 169px;
+    height: 19px;
+    top: 148px;
+    left: 32px;
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 10%;
+}
+
+
+  #top-header {
+      text-transform: none;
+      text-decoration: solid;
+      color: black;
+      font-size: 48px;
+      font-weight: 900;
+      line-height: 58.09px;
+      width: 274px;
+      height: 116px;
+      top: 191px;
+      left: 32px;
+      font-family: Arial, Helvetica, sans-serif;
+      
+    
+}
+
+#middle-header {
+    font-size: 56px;
+    font-weight: 900;
+    width: 274px;
+    height: 204px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.auctions a {
+    color: #555555; 
+}
+
+  #top-paragraph {
+      text-transform: none;
+      color: #555555; 
+      width: 274px;
+      height: 120px;
+      top: 331px;
+      left: 32px;  
+      font-size: 20px;
+      line-height: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      opacity: 0.7;
+}
+
+  .button {
+    background-color: white; 
+    color: black;
+    border-radius: 40px;
+    padding: 1.5rem;
+    width: 150px;
+    border: linear-gradient(rgba(234, 23, 167, 0.729), rgb(255, 0, 132), rgb(225, 39, 157));
+}
+
+.middle {
+    background-repeat: no-repeat;
+    padding-top: 6rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    margin: -1rem;
+}
+
+p {
+    color: black;
+}  
+
+.companies img {
+    padding: 3rem;
+    width: 14rem;
+    
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.card {
+    flex-direction: row;
+    display: inline-block;
+    border-radius: 1rem;
+    background-color:gainsboro;
+    margin-right: 1rem;
+
+}
+
+.card-info {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.85rem;
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: start; 
+   
+}
+
+.card-right {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.series {
+    color: orange;
+    font-size: 12px;
+}
+
+.id {
+    opacity: 0.6;
+    padding-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.topbid {
+
+    font-size: 12px;
+
+}
+
+.middle-bottom {
+    display: flex;
+    margin: 2rem;
+}
+
+
+.middle-bottom-left {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+
+.middle-bottom-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.middle-bottom-right img {
+    width: 10rem;
+    margin: -2rem;
+    margin-top: 10rem;
+}
+
+
+.footer-layout {
+    padding: 2rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    }
+    
+    
+    
+    .footer-layout a {
+    text-decoration: none;
+    color: black;
+    }
+    
+    
+    
+    .footer-layout .footer-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    }
+    
+    
+    
+    .footer-layout .footer-left div {
+    width: 50%;
+    }
+    
+    
+    
+    .footer-layout .foorter-left h4 {
+    margin: 0;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: grey;
+    }
+    
+    
+    
+    .footer-layout .footer-column {
+    width: 100%;
+    line-height: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    }
+
+    h3 {
+        text-transform: uppercase;
+    }
+
+    @media screen and (min-width: 900px) {
+        body {
+          max-width: 900px;
+          margin: auto;
+          text-decoration: none;
+        }
+        section {
+          max-width: 900px;
+        }
+
+        .top {
+          max-width: 900px;
+        }
+        .show_mobile {
+          display: none;
+        }
+        .hide_mobile {
+          display: inline;
+          text-decoration: none;
+        }
+        .hide_mobile a {
+          margin-left: 1rem;
+        }
+        .auctions {
+          background-position: left 30vw bottom 0%;
+        }
+        .companies {
+          margin-top: 2rem;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+          gap: 1rem;
+        }
+        .companies img {
+          width: 80%;
+        }
+        .top-footer {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+        }
+        .footer-layout {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+          width: 50vw;
+          margin-left: 50px;
+          padding: 0;
+        }
+        .copyright {
+          margin-top: 4rem;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+        }
+        .middle-bottom {
+          background-position: left 30vw top 0vw;
+          background-size: 15%;
+          margin-top: 1rem;
+        }
+        .middle-bottom .middle-bottom-left {
+          height: 300px;
+        }
+    }
